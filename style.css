@@ -1,0 +1,29 @@
+body {
+    background: #10b981;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+}
+
+input[type=text], 
+input[type=text]:focus {
+    color: white;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+}
+
+.todos li {
+    background: #064e3b;
+    color: #ecfdf5;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.filtered {
+    display: none !important;
+}
